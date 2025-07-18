@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.bank-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#balance {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+}
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #333;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000;
+}

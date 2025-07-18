@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Bank UI - Ghana Cedi</title>
+ <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="bank-container">
+  <h2>Lincoln's Ghana Bank</h2>
+  <div id="balance">Balance: ₵0.00</div>
+  <input type="number" id="amount" placeholder="Enter amount in GHS">
+  <div>
+    <button onclick="deposit()">Deposit</button>
+    <button onclick="withdraw()">Withdraw</button>
+    <button onclick="checkBalance()">Check Balance</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="index.js">
+ </script>
+
+</body>
+</html>
